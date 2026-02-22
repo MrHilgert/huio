@@ -1,0 +1,12 @@
+[package]
+name = "huio"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["rlib"]
+
+[dependencies]
+actix-web = {version = "4.13.0"}
+serde = {version = "1.0.228"}
+serde_json = {version = "1.0.149"}
